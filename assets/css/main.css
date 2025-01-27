@@ -171,8 +171,8 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
-  margin-right: 8px;
+  max-height: 40px;
+  margin-right: 10px;
 }
 
 .header .logo h1 {
@@ -704,7 +704,8 @@ section,
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--accent-color);
+  background: #FDC101;
+  /* background: var(--accent-color); */
   left: 0;
   right: 0;
   bottom: 0;
@@ -1214,8 +1215,8 @@ section,
 }
 
 .features .nav-link.active {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: #FDC101;
+  border-color: #FDC101;
 }
 
 .features .nav-link.active h4 {
@@ -1241,7 +1242,8 @@ section,
   display: block;
   width: 60px;
   height: 3px;
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background: #FDC101;
   left: 0;
   bottom: 0;
 }
@@ -1392,7 +1394,8 @@ section,
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background: #FDC101;
   color: var(--contrast-color);
   position: relative;
   overflow: hidden;
@@ -1583,7 +1586,8 @@ section,
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
+  background-color: #FDC101;
 }
 
 /*--------------------------------------------------------------
@@ -1677,7 +1681,8 @@ section,
   display: block;
   width: 25px;
   height: 3px;
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background: #FDC101;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1698,7 +1703,8 @@ section,
 .services .service-card {
   height: 100%;
   padding: 30px;
-  background: var(--surface-color);
+  background: #FDC101;
+  /* background: var(--surface-color); */
   border-radius: 10px;
   transition: all 0.3s ease;
 }
@@ -1708,7 +1714,8 @@ section,
 }
 
 .services .service-card:hover .icon {
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background: #FDC101;
   color: var(--contrast-color);
 }
 
@@ -1779,7 +1786,8 @@ section,
 }
 
 .pricing .pricing-card.popular {
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background: #FDC101;
   color: var(--contrast-color);
 }
 
@@ -1892,13 +1900,14 @@ section,
 }
 
 .pricing .pricing-card .btn.btn-primary {
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background: #FDC101;
   border: none;
   color: var(--contrast-color);
 }
 
 .pricing .pricing-card .btn.btn-primary:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: color-mix(in srgb, #FDC101, transparent 15%);
 }
 
 /*--------------------------------------------------------------
@@ -1918,7 +1927,9 @@ section,
 }
 
 .faq .faq-arrow {
-  color: var(--accent-color);
+  /* color: var(--accent-color);
+   */
+   background: #FDC101;
 }
 
 .faq .faq-container .faq-item {
